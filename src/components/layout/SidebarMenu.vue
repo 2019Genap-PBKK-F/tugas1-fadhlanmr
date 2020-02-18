@@ -90,7 +90,7 @@
     </router-link>
     <router-link tag="li" class="pageLink" to="/excel">
       <a>
-        <i class="fa fa-file-word-o"></i>
+        <i class="fa fa-file-excel-o"></i>
         <span class="page"> Excel</span>
       </a>
     </router-link>

@@ -61,8 +61,8 @@ const routes = [
       }, {
         path: 'excel',
         component: ExcelView,
-        name: 'Excel',
-        meta: {description: 'ExcelJs'}
+        name: 'Mahasiswa',
+        meta: {description: 'Tabel Mahasiswa kebutuhan Tugas 1 PBKK-F'}
       }
     ]
   }, {
