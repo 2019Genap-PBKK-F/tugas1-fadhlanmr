@@ -1,0 +1,55 @@
+{
+    "mahasiswa": [
+      {
+        "id": 1,
+        "nrp": "05111740000123",
+        "nama": "Fadhlan",
+        "angkatan": "2017",
+        "jk": "Laki-laki",
+        "lahir": "06/12/1998",
+        "foto": " ",
+        "aktif": true
+      },
+      {
+        "id": 2,
+        "nrp": "051117400000001",
+        "nama": "masMono",
+        "angkatan": "1002",
+        "jk": "Laki-laki",
+        "lahir": "23-0201999",
+        "foto": " ",
+        "aktif": true
+      },
+      {
+        "id": 3,
+        "nrp": "05111740000002",
+        "nama": "goFood",
+        "angkatan": "2193",
+        "jk": "Perempuan",
+        "lahir": "1999-02-23",
+        "foto": "",
+        "aktif": true
+      },
+      {
+        "id": 4,
+        "nrp": "",
+        "nama": "makNing",
+        "angkatan": "1991",
+        "jk": "",
+        "lahir": "",
+        "foto": "",
+        "aktif": ""
+      },
+      {
+        "id": 7,
+        "nrp": "",
+        "nama": "babaRafi",
+        "angkatan": "1992",
+        "jk": "",
+        "lahir": "",
+        "ukt": "",
+        "foto": "",
+        "aktif": ""
+      }
+    ]
+  }
