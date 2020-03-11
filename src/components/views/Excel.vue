@@ -6,7 +6,7 @@
           <div id="app" ref="spreadsheet"></div>
           <div class="col-md-11">
             <input type="button" class="btn btn-primary" value="Tambah Data Mahasiswa" @click="() => spreadsheet.insertRow()" />
-            <input type="button" class="btn btn-danger pull-right" value="Delete Data" @click="() => spreadsheet.deleteRow()" />
+            <input type="button" class="btn btn-danger float-right" value="Delete Data" @click="() => spreadsheet.deleteRow()" />
           </div>
           <hr>
         </div>
@@ -16,10 +16,9 @@
 </template>
 
 <script>
-import axios from 'axios'
 import jexcel from 'jexcel'
 import 'jexcel/dist/jexcel.css'
-
+import axios from 'axios'
 export default {
   // name: 'App',
   data() {
@@ -31,7 +30,7 @@ export default {
         nama: '',
         angkatan: '',
         jk: '',
-        lahir: '',
+        tgl: '',
         foto: '',
         aktif: ''
       }
@@ -43,22 +42,23 @@ export default {
   },
   methods: {
     newRow() {
-      axios.post('http://localhost:8022/api/mahasiswa/', this.form).then(res => {
+      axios.post('http://10.199.14.46:8022/api/mahasiswa', this.form)
+      .then(res => {
         console.log(res.data)
       })
     },
     updateRow(instance, cell, columns, row, value) {
-      axios.get('http://localhost:8022/api/mahasiswa/').then(res => {
+      axios.get('http://10.199.14.46:8022/api/mahasiswa').then(res => {
         var index = Object.values(res.data[row])
         index[columns] = value
         console.log(index)
-        axios.put('http://localhost:8022/api/mahasiswa/' + index[0], {
+        axios.put('http://10.199.14.46:8022/api/mahasiswa/' + index[0], {
           id: index[0],
           nrp: index[1],
           nama: index[2],
           angkatan: index[3],
           jk: index[4],
-          lahir: index[5],
+          tgl: index[5],
           foto: index[6],
           aktif: index[7]
         }).then(res => {
@@ -67,11 +67,11 @@ export default {
       })
     },
     deleteRow(instance, row) {
-      axios.get('http://localhost:8022/api/mahasiswa/').then(res => {
+      axios.get('http://10.199.14.46:8022/api/mahasiswa').then(res => {
         var index = Object.values(res.data[row])
         // console.log(index)
         console.log(row)
-        axios.delete('http://localhost:8022/api/mahasiswa/' + index[0])
+        axios.delete('http://10.199.14.46:8022/api/mahasiswa/' + index[0])
       })
     }
   },
@@ -80,7 +80,7 @@ export default {
       return {
         data: this.mahasiswa,
         allowToolbar: true,
-        url: 'http://localhost:8022/api/mahasiswa/',
+        url: 'http://10.199.14.46:8022/api/mahasiswa',
         onchange: this.updateRow,
         oninsertrow: this.newRow,
         ondeleterow: this.deleteRow,
@@ -98,4 +98,4 @@ export default {
     }
   }
 }
-</script> 
+</script>

@@ -1,55 +1,85 @@
 {
-    "mahasiswa": [
-      {
-        "id": 1,
-        "nrp": "05111740000123",
-        "nama": "Fadhlan",
-        "angkatan": "2017",
-        "jk": "Laki-laki",
-        "lahir": "06/12/1998",
-        "foto": " ",
-        "aktif": true
-      },
-      {
-        "id": 2,
-        "nrp": "051117400000001",
-        "nama": "masMono",
-        "angkatan": "1002",
-        "jk": "Laki-laki",
-        "lahir": "23-0201999",
-        "foto": " ",
-        "aktif": true
-      },
-      {
-        "id": 3,
-        "nrp": "05111740000002",
-        "nama": "goFood",
-        "angkatan": "2193",
-        "jk": "Perempuan",
-        "lahir": "1999-02-23",
-        "foto": "",
-        "aktif": true
-      },
-      {
-        "id": 4,
-        "nrp": "",
-        "nama": "makNing",
-        "angkatan": "1991",
-        "jk": "",
-        "lahir": "",
-        "foto": "",
-        "aktif": ""
-      },
-      {
-        "id": 7,
-        "nrp": "",
-        "nama": "babaRafi",
-        "angkatan": "1992",
-        "jk": "",
-        "lahir": "",
-        "ukt": "",
-        "foto": "",
-        "aktif": ""
-      }
-    ]
-  }
+  "mahasiswa": [
+    {
+      "id": 1,
+      "nrp": "05111740000123",
+      "nama": "Fadhlan",
+      "angkatan": "2017",
+      "jk": "Laki-laki",
+      "lahir": "06/12/1998",
+      "foto": " ",
+      "aktif": true
+    },
+    {
+      "id": 2,
+      "nrp": "051117400000001",
+      "nama": "masMono",
+      "angkatan": "1002",
+      "jk": "Laki-laki",
+      "lahir": "23-0201999",
+      "foto": " ",
+      "aktif": true
+    },
+    {
+      "id": 3,
+      "nrp": "05111740000002",
+      "nama": "goFood",
+      "angkatan": "2193",
+      "jk": "Perempuan",
+      "lahir": "1999-02-23",
+      "foto": "",
+      "aktif": true
+    },
+    {
+      "id": 4,
+      "nrp": "1248124909124",
+      "nama": "makNing",
+      "angkatan": "1991",
+      "jk": "Perempuan",
+      "tgl": "2020-03-25 00:00:00",
+      "foto": "",
+      "aktif": ""
+    },
+    {
+      "id": 7,
+      "nrp": "12381298481924",
+      "nama": "babaRafi",
+      "angkatan": "1992",
+      "jk": "",
+      "tgl": "",
+      "foto": "",
+      "aktif": ""
+    },
+    {
+      "id": 8,
+      "nrp": "1904333",
+      "nama": "haha",
+      "angkatan": "1234",
+      "jk": "Laki-laki",
+      "tgl": "2020-03-13 00:00:00",
+      "foto": "",
+      "aktif": ""
+    },
+    {
+      "id": 9,
+      "nrp": "",
+      "nama": "",
+      "angkatan": "",
+      "jk": "",
+      "tgl": "",
+      "foto": "",
+      "aktif": ""
+    },
+	{
+		"id":1,
+		"nrp":"05111740000123",
+		"nama":"Muhammad Fadhlan",
+		"angkatan":"2017",
+		"jk":null,
+		"tgl":"06121998  ",
+		"foto":null,
+		"aktif":true
+	},
+	{"id":1,"nrp":"05111740000123","nama":"Muhammad Fadhlan","angkatan":"2017","jk":null,"tgl":"06121998  ","foto":null,"aktif":true},{"id":2,"nrp":"05111740000123","nama":"Muhammad Fadhlan","angkatan":"2017","jk":null,"tgl":"06121998  ","foto":null,"aktif":true},{"id":4,"nrp":"05111740000123","nama":"Muhammad Fadhlan","angkatan":"2017","jk":null,"tgl":"06121998  ","foto":null,"aktif":true},{"id":5,"nrp":"05111740000123","nama":"Muhammad Fadhlan","angkatan":"2017","jk":"Laki","tgl":"06121998  ","foto":null,"aktif":false},{"id":6,"nrp":null,"nama":null,"angkatan":null,"jk":null,"tgl":null,"foto":null,"aktif":null},{"id":7,"nrp":null,"nama":null,"angkatan":null,"jk":null,"tgl":null,"foto":null,"aktif":null}
+  ]
+}
